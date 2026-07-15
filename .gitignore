@@ -1,6 +1,19 @@
-*.exe
-*.obj
-*.pdb
-*.ilk
+# Build
+build/
 
-.vscode/
+# Executables
+*.exe
+
+# MSVC
+*.obj
+*.ilk
+*.pdb
+
+# GCC / Clang
+*.o
+*.out
+
+# VS Code cache
+.vscode/*.browse.VC.db
+.vscode/ipch/
+.cph/
