@@ -74,7 +74,7 @@ int main () {
     }
 
     if (win == true) {
-        cout << "Correct ! You got that Within '" << tries << "' tries" << endl;
+        cout << "Correct ! You got that Within " << tries << " tries of " << max_tries << endl;
     }
     else {
         cout << "Hard Luck" << endl;
