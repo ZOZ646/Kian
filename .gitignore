@@ -17,3 +17,4 @@ build/*
 .vscode/*.browse.VC.db
 .vscode/ipch/
 .cph/
+.vscode/c_cpp_properties.json
