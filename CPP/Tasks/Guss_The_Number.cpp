@@ -23,7 +23,7 @@ int main () {
     cout << "  3 - Hard   \n";
     cout << "\nEnter 1, 2, or 3: ";
     cin >> choice;
-    system ("clear");
+    system ("cls");
 
 
     while (choice != 1 && choice != 2 && choice != 3){ 
@@ -33,7 +33,7 @@ int main () {
     cout << "  3 - Hard   \n";
     cout << "\nEnter 1, 2, or 3: ";
     cin >> choice;
-    system ("clear");
+    system ("cls");
     }
 
 
@@ -56,7 +56,7 @@ int main () {
         cout << "You Have '" << tries_left << "' tries left\n" << endl;
         cout << "Guess a number between 1 and 100" << endl;
         cin >> guessed_num;
-        system ("clear");
+        system ("cls");
         tries++;
 
         if (guessed_num == secret_num) {
