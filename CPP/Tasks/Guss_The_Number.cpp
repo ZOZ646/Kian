@@ -12,7 +12,7 @@ int max_tries = choice();
 bool win = play (max_tries);
 
 while (true) {
-    bool playAgain;
+    int playAgain;
     cout << "Want to  play again ?" << endl;
     cout << "1 => Yes\n";
     cout << "0 => No\n";
@@ -23,11 +23,16 @@ while (true) {
         max_tries = choice();
         win = play (max_tries);
     }
-    else {
+    else if (playAgain == 0) {
         cout << "Good bye" << endl;
         break;
     }
+    else {
+        continue;
+    }
 }
+
+    return 0;
 }
 
 void show() {
